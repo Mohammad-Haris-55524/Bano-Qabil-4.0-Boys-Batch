@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        div {
+            /* border: 2px solid black;   */
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./semanticTags.html">Go to semantic Tags file</a>
+    <h1>Forms in html</h1>
+    <form action="">
+        <div>
+            <label for="firstName">First Name</label>
+        </div>
+        <div>
+            <input type="text" name="firstName" id="firstName" required maxlength="12" placeholder="mr" readonly
+                disabled>
+        </div>
+        <div>
+            <label for="lastName">Last name</label>
+        </div>
+        <div>
+            <input type="text" name="lastName" id="lastName" autocomplete="off" required placeholder="mrs">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+        </div>
+        <input type="password" name="password" id="password" autocomplete="off" required placeholder="xxxxx-xxxxxxx-x"
+            autofocus>
+
+        <!-- Radio button -->
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+
+            <label for="female">FeMale</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+
+        <div>
+            <label for="vehicle1"> I have a bike</label>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="mery pas Bike hy">
+
+            <label for="vehicle2"> I have a car</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+
+            <label for="vehicle3"> I have a boat</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+
+        </div>
+
+        <div>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars" size="5" multiple>
+                <option value="BMW">BMW</option>
+                <option value="alto">alto</option>
+                <option value="cultus">cultus</option>
+                <option value="cultus">cultus</option>
+                <option value="cultus">cultus</option>
+                <option value="cultus">cultus</option>
+                <option value="cultus">cultus</option>
+
+
+            </select>
+
+        </div>
+
+        <div>
+            <label for="area">Enter your detail</label>
+        </div>
+        <textarea rows="10" cols="20" name="area" id="area"></textarea><br>
+        <label for="browsers">Select your region</label>
+        <div>
+
+            <input list="country" id="browser">
+            <datalist id="country">
+                <option value="pakistan">
+                <option value="china">
+                <option value="india">
+            </datalist>
+        </div>
+        <!-- <input type="submit" value="submit">
+       <input type="reset" value="reset"> -->
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+        <br><br>
+        <label for="waseem">Select your fav col</label>
+        <input type="color" name="waseem" id="waseem">
+
+        <input type="date" name="" id="">
+        <br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+
+        <input type="file" name="" id="">
+
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="15" step="3">
+
+        <label for="num">Phone #</label>
+        <input type="number" name="num" id="num" size="11">
+
+
+        <br>
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50" value="vol">
+    </form>
+    <input type="file" name="" id="" multiple>
+</body>
+
+</html>
