@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap');
+@font-face {
+    font-family: "meriMarziKaName";
+    src: url(./fonts/Bitcount/Bitcount-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf) format(truetype);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family:'Times New Roman', Times, serif */
+    /* font-family: "Bitcount", system-ui; */
+    font-family: "meriMarziKaName";
+
+h4{
+    background-color: blueviolet;
+    /* HEX COLOR */
+    color: #2be67f;
+    border: 5px solid hsl(0, 100%, 0%)
+    /* border: 5px solid hsl(0, 100%, 0%)!important; */
+}
+h3{
+    background-color: blue;
+}
+
+
+.kuch-bhe{
+    background-color: black;
+}
+
+h2{
+    background-color: rgb(156, 160, 95)!important;
+    }
+    
+
+    #checking-inline-css{
+        background-color: red;
+        /* RGB COLOR */
+        color: rgb(255, 252, 252);
+        border: 10px solid rgb(197, 180, 180);
+    }
+
+    #border-radius-1{
+        border: 5px solid rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+        #border-radius-2{
+        border: 5px solid rgb(230, 6, 6);
+    }
+
+        #border-radius-3{
+        border: 5px solid rgb(12, 235, 223);
+    }
+
+
+.para-01, .heading-01{
+border: 2px solid black;
+}
+
+.para-01{
+    margin-top: 12px;
+    margin-right: 14px;
+    margin-bottom: 16px;
+    margin-left: 18px;
+    /* //shorthand  */
+    margin: 12px 14px 16px 18px;
+    margin: 110px 20px;
+    padding: 10px 20px;
+}
+
+span{
+display: inline-block;
+border: 2px solid black;
+width: 800px;
+height: 900px;
+       margin: 112px 14px 116px 18px;
+           padding: 0px 20px;
+}
+#hideHoJao{
+    display: none;
+}
