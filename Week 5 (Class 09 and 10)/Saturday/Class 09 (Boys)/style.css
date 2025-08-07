@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+/* html{
+    font-size: 40px; /* 1rem = 16px 
+    
+/* }  */
+
+.px{
+  border: 5px solid black;
+    background-color: aquamarine;
+    font-size: 30px;
+}
+
+.px{
+  border: 5px solid black;
+    background-color: aquamarine;
+ width: 840px;
+ height: 200px;
+}
+/* .px p,h1 {
+    font-size: 30px;
+} */
+.px p {
+    font-size: 30px;
+    /* padding: 10px 20px; */
+}
+
+/* Viewport width */
+.vw {
+   border: 5px solid black;
+   background-color: bisque;
+   font-size: 5vw;
+width: 30vw;
+height: 20vh;
+}
+.vw p{
+    font-size: 2vw;
+    padding: 3vh 2vw;
+}
+
+/* .vw {
+    width: 50vw;
+    height: 20vh;
+   border: 5px solid black;
+   background-color: bisque;
+} */
+
+.em{
+border: 5px solid black;
+   background-color: bisque;
+   height: 200px;
+   font-size: 24px;
+}
+.em p {
+    /* 24 * 2 = 48 */
+    font-size: 2em; 
+}
+
+/* .em h2{
+    font-size: 2em;
+} */
+
+.rem{
+border: 5px solid black;
+   background-color: bisque;
+   height: 200px;
+   font-size: 20px;
+}
+.rem p { 
+    /* 20 * 2 = 40  will not work bcz it will inherit root element size 1rem = 16px*/ 
+    font-size: 3rem; 
+}
+.rem div {
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    margin: 10px;
+    display: inline-block;
+}
+
+.percentage {
+    border: 5px solid black;
+    background-color: bisque;
+    width: 50%;
+    height: 500px;
+
+}
+.percentage div {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    margin: 10px;
+
+ 
+}

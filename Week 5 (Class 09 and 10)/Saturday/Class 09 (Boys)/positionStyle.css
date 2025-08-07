@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+.parent {
+    width: 90%;
+    height: 90vh;
+    border: 5px solid #000000;
+    margin: auto;
+    
+}
+.class{
+    margin: 10px 10px;
+}
+.class1 {
+    width: 50%;
+    height: 20%;
+    background-color: #FF0000;
+    position: relative;
+
+}
+.class2 {
+    width: 50%;
+    height: 20%;
+    background-color: green;
+    position: relative;
+    top: 10rem;
+    /* left: 5rem; */
+    /* margin-left: 5rem; */
+    /* margin-top: 10rem; */
+}
+.class3 {
+    /* By default, all elements are positioned statically */
+    /* position: static;
+    top: 50rem; */
+    width: 50%;
+    height: 20%;
+    background-color: yellow;
+    position: relative;
+    /* z-index: 1; */
+    left: 45rem;
+    top: 10rem;
+}
+.class4 {
+    width: 50%;
+    height: 20%;
+    background-color: purple;
+    position: relative;
+
+}
