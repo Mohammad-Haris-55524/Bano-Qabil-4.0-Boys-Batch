@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+.parent {
+    width: 90%;
+    height: 90vh;
+    border: 5px solid #000000;
+    margin: auto;
+    position: relative;
+    /* overflow: hidden; */
+    
+}
+.class{
+     width: 50%;
+    height: 20%;
+    /* margin: 10px 5px; */
+}
+.child1 {
+    /* width: 50%;
+    height: 20%; */
+    background-color: #FF0000;
+    /* position: relative; */
+    /* bottom: 10rem; */
+    /* left: 10rem; */
+    /* right: 10rem; */
+    /* position: static; */
+    /* top: 10rem; */
+      /* margin-top: 10rem; */
+      /* margin-left: 45rem; */
+      /* margin-top: 40rem; */
+      /* left: 45rem; */
+      /* top: 1rem; */
+      /* z-index: 2; */
+
+    position: sticky;
+    top: 0;
+
+}
+.child2 {
+    /* width: 50%;
+    height: 20%; */
+    background-color: green;
+    /* position: relative;
+    top: 10rem; */
+    /* left: 5rem; */
+    /* margin-left: 5rem; */
+    /* margin-top: 10rem; */
+    /* position: absolute; */
+
+}
+.child3 {
+    /* By default, all elements are positioned statically */
+    /* position: static;
+    top: 50rem; */
+    /* width: 50%;
+    height: 20%; */
+    background-color: yellow;
+    /* position: relative; */
+    /* z-index: 1; */
+    /* left: 45rem;
+    top: 10rem; */
+    /* position: absolute; */
+    /* top: ; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* top: 45rem; */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 10%;
+    border-radius: 50%;
+
+
+
+
+}
+.child4 {
+    /* width: 50%;
+    height: 20%; */
+    background-color: purple;
+    /* position: relative; */
+    /* bottom: 10rem; */
+    /* bottom: 10rem; */
+}

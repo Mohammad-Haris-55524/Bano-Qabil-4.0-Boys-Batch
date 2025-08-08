@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+.parent {
+    width: 90%;
+    height: 90vh;
+    border: 5px solid #000000;
+    margin: auto;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row;   
+    justify-content: space-evenly; /*horizontal axis if flex direction is row */
+    align-items: center; /*vertical axis if flex direction is row */
+    align-content: center; /*aligns the flex lines within the flex container when there is extra space in the cross-axis */
+    /* column-gap: 2rem; /*space between flex items */
+    /* row-gap: 2rem; /*space between flex items */
+    /* gap: 2rem; shorthand for column-gap and row-gap */
+}
+.child {
+    background-color: lightblue;
+    width: 18%;
+    height: 10%;
+    border: 2px solid #000;
+}
+
+.child1{
+order: 1; /*changes the order of the flex items */
+ 
+}
+
+.child2{
+    /* order: 2; */
+}
+
+.child3{
+     /* order: 3; */
+     /* flex-grow: 1; */
+     flex-basis: 25%; /*sets the initial main size of a flex item before free space is distributed */
+     flex: 0 1 25%; /*shorthand for flex-grow, flex-shrink, and flex-basis */
+}
+
+.child4{
+    flex-shrink: 2; /*allows the item to shrink if necessary (it does not works on wrap) */
+    align-self:flex-start; /*overrides the align-items property for this specific item */
+    
+}
