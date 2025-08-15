@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-1{
+border: 54px solid black;
+/* overflow: hidden; */
+/* display: flow-root; */
+border-image: url("");
+/* border: 20px solid transparent; */
+
+}
+
+.para-1 {
+background-color: lightseagreen;
+}
+
+.para-2 {
+    background-color: lightcoral;
+}
+
+.para-3 {
+    background-color: rgb(199, 22, 22);
+}
+
+.para-6 {
+    background-color: rgb(22, 34, 199);
+}
+.img1{
+    float: left;
+    /* float: right; */
+    /* float: none; */
+}
+.img2{
+    float: right;
+    /* float: left; */
+    /* float: none; */
+}
+.para-3{
+    clear: right
+}
+.para-6{
+    clear: both
+}
+
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+.hover-effect {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+.hover-effect:hover{
+    background-color: blue;
+    color: white;
+}
+
+.hover-effect2{
+    background-color: aqua;
+    padding: 25px;
+}
+.hover-effect2 p{
+    display: none;
+}
+
+.hover-effect2:hover p{
+    display: block;
+}
+
+/* p i:first-child {
+  color: blue;
+  font-size: 3rem;
+}  */
+
+div p:first-child i {
+  color: red;
+  font-size: 3rem;
+}
+/* p::first-line {
+  color: blue;
+  font-variant: small-caps;
+} */
+
+p::first-letter {
+  color: blue;
+  font-variant: small-caps;
+  font-size: 4rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 5px;
+  color: brown;
+  /* border-radius: 5px; */
+}
+
+input[type="email"]:focus{
+  background-color: blueviolet;
+}
